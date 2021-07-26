@@ -44,8 +44,9 @@ window.midExploit = function()
     var scripts = ['blob.js', 'jb.js'];
 
     if (fwFromUA != "755") {
-        die('GoldHen 1.0 is not compatible with your firmware version!');
         window.location.href = "./index.html";
+        die('GoldHen 1.0 is not compatible with your firmware version!');
+        
     }
     
     scripts.push('common/loader-755.js');
