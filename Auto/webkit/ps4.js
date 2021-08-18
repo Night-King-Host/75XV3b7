@@ -222,7 +222,10 @@ function toggle_payload(pld){
 	}else if(pld == "orbistoolbox"){
 	document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 	preloadScripts(['payloads/preloader.js', 'payloads/orbistoolbox.js', 'payloads/loader.js']);
-    }else if(pld == "fan50"){
+    }else if(pld == "webactivator"){
+	document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+	preloadScripts(['payloads/preloader.js', 'payloads/payload.js', 'payloads/loader.js', 'payloads/frontend.js']);}
+	else if(pld == "fan50"){
 	document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 	preloadScripts(['payloads/preloader.js', 'payloads/fan50.js', 'payloads/loader.js']);	
 	}else if(pld == "fan55"){

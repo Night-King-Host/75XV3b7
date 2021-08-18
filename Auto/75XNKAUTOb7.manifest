@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v1.12 B6 AUTO 07-01-2021
+# v1.12 B7 AUTO 18/08/2021
  
 1.jpg
 index.html
@@ -43,6 +43,8 @@ payloads\restore.js
 payloads\rifrenamer.js
 payloads\todex.js
 payloads\webrte.js
+payloads\frontend.js
+payloads\payload.js
 webkit\int64.js
 webkit\ps4.js
 webkit\utils.js
